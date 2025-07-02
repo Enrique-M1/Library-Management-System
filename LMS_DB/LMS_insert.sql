@@ -1,4 +1,8 @@
-INSERT INTO books (title, author, ISBN, category, image_url, total_cpies, avaliable_copies)
+
+USE LibraryDB;
+
+
+INSERT INTO books (title, author, ISBN, category, image_url, total_copies, available_copies)
 VALUES
 ('Gilead', 'Marilynne Robinson', '9780002005883', 'Fiction', 'http://books.google.com/books/content?id=KQZCPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api', 1, 1),
 ('Spider''s Web', 'Charles Osborne;Agatha Christie', '9780002261982', 'Mystery', 'http://books.google.com/books/content?id=gA5GPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api', 1, 1),

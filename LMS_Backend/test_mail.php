@@ -12,7 +12,7 @@ try {
     $mail->Username   = 'email';
     $mail->Password   = 'password';
     $mail->setFrom('your@gmail.com', 'Library LMS');
-    $mail->addAddress('vineethamallu6@gmail.com', 'Vineeth'); 
+    $mail->addAddress('recipientEmail@gmail.com', 'recipientName');
     $mail->isHTML(false);
     $mail->Subject = 'PHPmailer Test';
     $mail->Body    = "This is a test of PHPMailer SMTP.\n";
